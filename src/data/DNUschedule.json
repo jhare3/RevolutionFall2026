@@ -1,0 +1,310 @@
+[
+  {
+    "week": 1,
+    "date": "RESCHEDULED TO SUNDAY, AUGUST 30",
+    "location": "Edmunds Middle School RESCHEDULED TO SUNDAY, AUGUST 30",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "ORANGE vs BLUE"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "WHITE vs GREEN"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "GRAY vs PINK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "BLACK vs RED"
+      }
+    ],
+    "bye": "PURPLE"
+  },
+  {
+    "week": 2,
+    "date": "Sunday, July 5",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "PURPLE vs GREEN"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "GRAY vs RED"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "BLUE vs BLACK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "PINK vs WHITE"
+      }
+    ],
+    "bye": "ORANGE"
+  },
+  {
+    "week": 3,
+    "date": "Sunday, July 12",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "BLUE vs RED"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "PURPLE vs ORANGE"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "BLACK vs PINK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "GREEN vs GRAY"
+      }
+    ],
+    "bye": "WHITE"
+  },
+  {
+    "week": 4,
+    "date": "Sunday, July 19",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "GRAY vs BLUE"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "WHITE vs RED"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "PURPLE vs PINK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "BLACK vs ORANGE"
+      }
+    ],
+    "bye": "GREEN"
+  },
+  {
+    "week": 5,
+    "date": "Sunday, July 26",
+    "location": "South Burlington High School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "PURPLE vs WHITE"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "BLUE vs PINK"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "BLACK vs GREEN"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "RED vs ORANGE"
+      }
+    ],
+    "bye": "GRAY"
+  },
+  {
+    "week": 6,
+    "date": "Sunday, August 2",
+    "location": "South Burlington High School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "RED vs PINK"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "PURPLE vs GRAY"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "BLUE vs GREEN"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "ORANGE vs WHITE"
+      }
+    ],
+    "bye": "BLACK"
+  },
+  {
+    "week": 7,
+    "date": "Sunday, August 9",
+    "location": "South Burlington High School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "WHITE vs GRAY"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "GREEN vs RED"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "ORANGE vs PINK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "PURPLE vs BLACK"
+      }
+    ],
+    "bye": "BLUE"
+  },
+  {
+    "week": 8,
+    "date": "RESCHEDULED TO SUNDAY, AUGUST 30",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "PINK vs GREEN"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "BLACK vs WHITE"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "PURPLE vs BLUE"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "GRAY vs ORANGE"
+      }
+    ],
+    "bye": "RED"
+  },
+  {
+    "week": 9,
+    "date": "Sunday, August 23",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "GREEN vs ORANGE"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "PURPLE vs RED"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "BLACK vs GRAY"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "WHITE vs BLUE"
+      }
+    ],
+    "bye": "PINK"
+  },
+    {
+    "week": "1 & 8",
+    "date": "Sunday, August 30",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "PINK vs GREEN"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "PURPLE vs BLUE"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "GRAY vs PINK"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "WHITE vs GREEN"
+      },     
+      {
+        "time": "12:00 PM",
+        "matchup": "ORANGE vs BLUE"
+      },     
+      {
+        "time": "1:00 PM",
+        "matchup": "BLACK vs WHITE"
+      },
+      {
+        "time": "2:00 PM",
+        "matchup": "GRAY vs ORANGE"
+      },
+      {
+        "time": "3:00 PM",
+        "matchup": "BLACK vs RED"
+      }
+    ],
+    "bye": null
+  },
+  {
+    "week": "Playoffs",
+    "date": "Saturday, September 5",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "8:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "9:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "10:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "12:00 PM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "1:00 PM",
+        "matchup": "TBD"
+      }
+    ],
+    "bye": null
+  },
+  {
+    "week": "Championships",
+    "date": "Sunday, September 6",
+    "location": "Edmunds Middle School",
+    "games": [
+      {
+        "time": "10:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "11:00 AM",
+        "matchup": "TBD"
+      },
+      {
+        "time": "12:00 PM",
+        "matchup": "TBD"
+      }
+    ],
+    "bye": null
+  }
+]

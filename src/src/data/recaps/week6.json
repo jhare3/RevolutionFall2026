@@ -1,0 +1,67 @@
+{
+  "week": 6,
+  "date": "",
+  "title": "BURLINGTON REVOLUTION MEN'S LEAGUE | WEEK 6 RECAP",
+  "content": "Week 6 was baskets galore across the Burlington Revolution Men's League. Donnie Dwyer and Matt Riordan nearly triple-doubled Pink past Red, Tommy Brockmyre and Gray held off a late Purple surge, Jibril Abdullahi erupted for a career night but still came up short as Blue stayed perfect, and Stefan Radan topped his own Week 5 outburst with a 46-point explosion to lead Orange past White. Let's get into the action.",
+  "matchups": ["RED vs PINK", "PURPLE vs GRAY", "BLUE vs GREEN", "ORANGE vs WHITE"],
+  "games": [
+    {
+      "matchup": "Game 1: Red vs. Pink",
+      "text": "Pink wasted no time setting the tone. Donnie Dwyer and Matt Riordan both got going early, combining for a wave of buckets and boards that Red couldn't match. Pink's ball movement had them finding easy looks all half, while Red leaned on Jaren Jeffcoat's rebounding and Timmy Ashley's scoring to try to hang around. Pink's first-half burst put them firmly in control. Halftime: Pink 39, Red 28. Red tried to claw its way back in the second half. Suave A and Will Oboh picked up the scoring load for Red, and the Red defense tightened considerably, matching Pink possession for possession after the break. But Pink had already built too big a cushion, with Matt Riordan and Donnie Dwyer continuing to fill the stat sheet on both ends of the floor. Pink held on to close it out, 63-51.",
+      "performers": {
+        "Pink": "Donnie Dwyer — 22 pts, 13 REB, 6 AST; Matt Riordan — 20 pts, 14 REB, 6 AST; Tavian Barrino — 8 pts",
+        "Red": "Jaren Jeffcoat — 13 pts, 12 REB; Suave A — 10 pts, 5 AST; Will Oboh — 10 pts"
+      }
+    },
+    {
+      "matchup": "Game 2: Purple vs. Gray",
+      "text": "Gray had a point to prove against a Purple squad that had been rolling. Tommy Brockmyre set the tone immediately, scoring inside and out, while John Helsel controlled the glass. Gray's physical style bothered Purple all half, and even though Kevin Garrison tried to answer, Gray's defense forced tough shots and built a comfortable cushion by the break. Halftime: Gray 29, Purple 19. Purple came out of the locker room determined to erase the deficit. Kevin Garrison caught fire, attacking the basket and cleaning the glass to spark the Purple offense. But Gray matched them bucket for bucket, with Matt Spear and Tommy Brockmyre continuing to produce, and the two teams played the second half to a dead heat. Gray's first-half cushion proved to be the difference. Gray held on for the win, 64-54.",
+      "performers": {
+        "Gray": "Tommy Brockmyre — 24 pts, 6 REB; Matt Spear — 19 pts, 13 REB; John Helsel — 10 pts, 10 REB",
+        "Purple": "Kevin Garrison — 22 pts, 15 REB, 4 AST; Brody Snow — 10 pts, 8 REB; Dennis Schut — 7 pts, 11 REB"
+      }
+    },
+    {
+      "matchup": "Game 3: Blue vs. Green",
+      "text": "Green had one thing going for it — and his name was Jibril Abdullahi. Abdullahi came out on an absolute heater, splashing threes and attacking the rim seemingly at will, keeping Green within striking distance of Blue's balanced attack. Drew Pelkey and Logan Letourneau kept Blue in front behind efficient scoring, but Abdullahi's one-man show made sure Green stayed close heading into the break. Halftime: Blue 37, Green 33. The second half was more of the same from Abdullahi, but Blue had enough answers. Jibril Abdullahi kept the barrage going, finishing with a jaw-dropping 46 points on the night, but Blue's depth proved too much. Elijah Tucker-Bryant and Dylan Mackie provided scoring punch off the bench, and Logan Letourneau nearly notched a double-double while Blue's defense did just enough to hold off Green's superstar performance. Blue survived, 79-71, staying unbeaten.",
+      "performers": {
+        "Green": "Jibril Abdullahi — 46 pts, 8 REB, 8 AST; Nick Lynn — 10 pts, 13 REB; Paddy Monaghan — 6 pts, 4 REB",
+        "Blue": "Drew Pelkey — 17 pts, 7 REB, 3 AST; Logan Letourneau — 16 pts, 11 REB, 4 AST; Elijah Tucker-Bryant — 14 pts"
+      }
+    },
+    {
+      "matchup": "Game 4: Orange vs. White",
+      "text": "Orange made it clear from the jump this one wasn't going to be close. Stefan Radan picked up right where he left off the week before, raining threes and scoring in bunches, while Will Ewald and Josh Carter piled on with efficient contributions of their own. White's Tyrone Conley tried to keep pace with his scoring, but Orange's offense was simply unstoppable, pouring in 54 points in the opening half alone. Halftime: Orange 54, White 38. Orange showed no mercy after the break. Stefan Radan continued his onslaught, finishing with a career night of 46 points, while Josh Carter dished out assists at will and Will Ewald rounded out a complete all-around game. White's Tyrone Conley and Devin Bradford fought until the final buzzer, but Orange's offensive firepower was too much to overcome. Orange cruised to a dominant win, 101-69.",
+      "performers": {
+        "White": "Tyrone Conley — 30 pts, 6 REB, 5 AST; Devin Bradford — 13 pts, 6 REB, 5 AST; Aid Semic — 9 pts, 9 REB",
+        "Orange": "Stefan Radan — 46 pts, 10 REB, 3 AST; Josh Carter — 16 pts, 8 REB, 9 AST; Will Ewald — 16 pts, 9 REB, 4 AST"
+      }
+    }
+  ],
+  "standings": [
+    {"team": "Blue", "W": 6, "L": 0, "PCT": "1.000", "PF": 497, "PA": 422, "Diff": "+75"},
+    {"team": "Purple", "W": 4, "L": 2, "PCT": ".667", "PF": 403, "PA": 388, "Diff": "+15"},
+    {"team": "Orange", "W": 4, "L": 1, "PCT": ".800", "PF": 418, "PA": 327, "Diff": "+91"},
+    {"team": "Pink", "W": 4, "L": 2, "PCT": ".667", "PF": 396, "PA": 366, "Diff": "+30"},
+    {"team": "Gray", "W": 4, "L": 1, "PCT": ".800", "PF": 326, "PA": 338, "Diff": "-12"},
+    {"team": "Black", "W": 1, "L": 3, "PCT": ".250", "PF": 282, "PA": 295, "Diff": "-13"},
+    {"team": "White", "W": 1, "L": 4, "PCT": ".200", "PF": 364, "PA": 443, "Diff": "-79"},
+    {"team": "Green", "W": 0, "L": 5, "PCT": ".000", "PF": 313, "PA": 360, "Diff": "-47"},
+    {"team": "Red", "W": 0, "L": 6, "PCT": ".000", "PF": 393, "PA": 453, "Diff": "-60"}
+  ],
+  "standingsNote": "Black had the bye in Week 6; its record and totals carry over unchanged.",
+  "sponsors": [
+    {
+      "name": "Alta Group & The Windjammer Restaurant and Upper Deck Pub",
+      "message": "This recap is brought to you with thanks to our sponsors, the Alta Group and The Windjammer Restaurant and Upper Deck Pub. Their support keeps the Revolution Men's League running week after week."
+    },
+    {
+      "name": "Warden's Wisdom",
+      "message": "This recap is brought to you by Warden's Wisdom, a mindfulness-based coaching business helping individuals relieve anxiety through personalized mindfulness practices.",
+      "quote": "Comebacks aren't made in the final minute — they're made in the quiet decision to stay composed when nobody's watching.",
+      "url": "",
+      "urlLabel": ""
+    }
+  ],
+  "closing": ""
+}

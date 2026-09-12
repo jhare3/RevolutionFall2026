@@ -1,0 +1,67 @@
+{
+  "week": 9,
+  "date": "",
+  "title": "REVOLUTION MEN'S LEAGUE | WEEK 9 RECAP",
+  "content": "Week 9 delivered four finishes that came down to the final stretch. Jibril Abdullahi caught fire late to help Green shock Orange, Red weathered a Kevin Garrison masterpiece to hold off Purple, Will Ameden powered Black past a feisty Gray squad, and Tyrone Conley dragged White back from a nine-point hole to outlast Blue, while Pink had the week off. Let's get into the action.",
+  "matchups": ["GREEN vs ORANGE", "PURPLE vs RED", "BLACK vs GRAY", "WHITE vs BLUE"],
+  "bye": "Pink",
+  "games": [
+    {
+      "matchup": "Game 1: Green vs. Orange",
+      "text": "Orange came out swinging and made Green work for every possession. Stefan Radan got loose from deep early, Josh Carter picked his spots for efficient buckets, and Carter provided a spark off the bench to keep the pace in Orange's favor. Green struggled to find a rhythm out of the gate, though Jibril Abdullahi and Calder Horowitz-McCadden kept chipping away to stay within shouting distance. Orange carried a nine-point cushion into the break. Halftime: Orange 41, Green 32. Green flipped the script after the break, and Abdullahi would not be denied. Abdullahi turned into a one-man wrecking crew, cashing in threes, finishing at the rim, and knocking down pull-up jumpers on his way to a monster 36-point day. Horowitz-McCadden kept fighting on the glass, and Nick Lynn knocked down timely shots from deep to keep the pressure on. Green outscored Orange 38-27 over the final period to erase the deficit. Radan and the Orange bench kept pushing to the finish, but it wasn't quite enough to hold the door shut. Final: Green 70, Orange 68.",
+      "performers": {
+        "Green": "Jibril Abdullahi — 36 pts, 12 REB, 6 AST; Calder Horowitz-McCadden — 15 pts, 11 REB, 1 AST; Nick Lynn — 9 pts, 2 REB, 1 AST",
+        "Orange": "Stefan Radan — 25 pts, 15 REB, 5 AST; Josh Carter — 15 pts, 8 REB, 4 AST; Carter — 13 pts, 4 REB, 1 AST"
+      }
+    },
+    {
+      "matchup": "Game 2: Purple vs. Red",
+      "text": "Red set the tone early and never let it slip away. Chris Cayole got going right out of the gate, Jaren Jeffcoat controlled the glass on both ends, and Suave A kept finding gaps to probe the Purple defense. Purple couldn't find its footing early, though Kevin Garrison kept the deficit manageable with steady scoring and playmaking of his own. Halftime: Red 32, Purple 26. Purple made a push after the break, but Red had enough in reserve to hold on. Garrison turned in a monster line, finishing with 35 points and 20 rebounds as he tried to single-handedly drag Purple back into it. Cayole and Jeffcoat matched him bucket for bucket, and role players Timmy Ashley and Will Oboh hit just enough shots down the stretch to keep Red's cushion intact. Red outscored Purple 34-33 over the final period to close the door. Final: Red 66, Purple 59.",
+      "performers": {
+        "Red": "Chris Cayole — 26 pts, 5 REB, 1 AST; Jaren Jeffcoat — 18 pts, 13 REB, 4 AST; Timmy Ashley — 8 pts, 6 REB",
+        "Purple": "Kevin Garrison — 35 pts, 20 REB, 3 AST; Brody Snow — 11 pts, 2 REB, 4 AST; Drew Fisher — 9 pts, 4 REB"
+      }
+    },
+    {
+      "matchup": "Game 3: Black vs. Gray",
+      "text": "Black set the pace from the opening whistle and never let go. Will Ameden bullied his way to the rim all half, Seth Jackson splashed shots from beyond the arc, and Liam Walsh cleaned up the glass to keep extra possessions coming. Gray answered behind Matt Spear's aggressive downhill scoring and Tommy Brockmyre's efficient work inside, but couldn't quite catch up before the horn. Halftime: Black 42, Gray 38. Gray tried to chip away in the second half, but Black matched them basket for basket. Ameden kept pouring it in on his way to a 29-point day, Jackson stayed hot from deep, and Tavarius Vance controlled the boards on both ends. Spear and Brockmyre combined for a staggering 53 points on the afternoon, with Kerry Lyons chipping in all over the stat sheet, but Gray never found the stop it needed. Black outscored Gray 41-37 over the final period to seal it. Final: Black 83, Gray 75.",
+      "performers": {
+        "Black": "Will Ameden — 29 pts, 12 REB, 2 AST; Seth Jackson — 16 pts, 5 REB, 2 AST; Liam Walsh — 14 pts, 10 REB",
+        "Gray": "Matt Spear — 32 pts, 8 REB, 3 AST; Tommy Brockmyre — 21 pts, 14 REB, 2 AST; Kerry Lyons — 11 pts, 11 REB, 3 AST"
+      }
+    },
+    {
+      "matchup": "Game 4: White vs. Blue",
+      "text": "Blue jumped on White early and built a comfortable cushion. Brody Lathrop got hot from deep, Logan Letourneau matched him from beyond the arc, and Drew Pelkey did damage inside to keep Blue's offense humming. White couldn't find much outside of Tyrone Conley's individual scoring, and the deficit grew before the break. Halftime: Blue 44, White 35. White erupted out of the locker room, and Conley led the charge. Conley kept attacking at will on his way to a game-high 32 points, while JP caught fire from three for 23 of his own, and Edo Semic set the table with four assists to keep the offense flowing. White outscored Blue 47-36 over the final period to complete the turnaround. Lathrop and Letourneau kept firing for Blue, and Henry Cogswell chipped in down the stretch, but the White surge proved too much to slow. Final: White 82, Blue 80.",
+      "performers": {
+        "White": "Tyrone Conley — 32 pts, 8 REB, 5 AST; JP — 23 pts, 5 REB, 3 AST; Edo Semic — 11 pts, 7 REB, 4 AST",
+        "Blue": "Brody Lathrop — 21 pts, 5 REB, 3 AST; Logan Letourneau — 20 pts, 4 REB, 1 AST; Drew Pelkey — 15 pts, 8 REB, 3 AST"
+      }
+    }
+  ],
+  "standings": [
+    {"team": "Blue", "W": 5, "L": 2, "PCT": "0.714", "PF": 578, "PA": 515, "Diff": "+63"},
+    {"team": "Pink", "W": 4, "L": 2, "PCT": "0.667", "PF": 403, "PA": 366, "Diff": "+37"},
+    {"team": "Purple", "W": 5, "L": 3, "PCT": "0.625", "PF": 525, "PA": 510, "Diff": "+15"},
+    {"team": "Gray", "W": 4, "L": 3, "PCT": "0.571", "PF": 494, "PA": 523, "Diff": "-29"},
+    {"team": "Orange", "W": 3, "L": 4, "PCT": "0.429", "PF": 504, "PA": 468, "Diff": "+36"},
+    {"team": "Black", "W": 3, "L": 4, "PCT": "0.429", "PF": 502, "PA": 503, "Diff": "-1"},
+    {"team": "White", "W": 3, "L": 4, "PCT": "0.429", "PF": 532, "PA": 584, "Diff": "-52"},
+    {"team": "Red", "W": 3, "L": 5, "PCT": "0.375", "PF": 556, "PA": 586, "Diff": "-30"},
+    {"team": "Green", "W": 2, "L": 5, "PCT": "0.286", "PF": 460, "PA": 499, "Diff": "-39"}
+  ],
+  "sponsors": [
+    {
+      "name": "Alta Group & The Windjammer Restaurant and Upper Deck Pub",
+      "message": "A huge thank you to the Alta Group and The Windjammer Restaurant and Upper Deck Pub for their continued support of the Revolution Men's League. None of this happens without you."
+    },
+    {
+      "name": "Warden's Wisdom",
+      "message": "This recap is brought to you by Warden's Wisdom, a mindfulness-based coaching business dedicated to helping individuals relieve anxiety through personalized mindfulness practices. Comebacks like Green's and White's this week are a good reminder that the game isn't decided until it's decided.",
+      "quote": "Peace isn't something you wait for the final score to give you. It's something you bring to the moment before you know how it ends.",
+      "url": "",
+      "urlLabel": ""
+    }
+  ],
+  "closing": "Four teams found their footing in the fourth quarter this week, and the standings are bunching up fast in the middle of the pack. Week 10 is on deck. Tune in."
+}
