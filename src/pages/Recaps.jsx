@@ -44,7 +44,7 @@ const TeamPill = ({ name }) => (
     fontSize: '0.65rem',
     letterSpacing: '0.06em',
     padding: '3px 11px',
-    borderRadius: '100px',
+    borderRadius: '4px',
     textTransform: 'uppercase',
     display: 'inline-block',
     lineHeight: 1.7,
@@ -115,7 +115,7 @@ const PerformersPanel = ({ performers }) => {
               background: '#fafafa',
               border: '1px solid #eeeeee',
               borderTop: `4px solid ${getTeamColor(team)}`,
-              borderRadius: '10px',
+              borderRadius: '0.25rem',
               padding: '16px',
               textAlign: 'left'
             }}>
@@ -153,7 +153,7 @@ const GameCard = ({ game, onOpenBoxscore, gameDataMap }) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        borderRadius: '0.75rem',
+        borderRadius: '0.25rem',
         border: expanded ? '2px solid #1a1a1a' : hovered ? '2px solid #ff4d4d' : '2px solid #e0e0e0',
         overflow: 'hidden',
         background: '#fff',
@@ -241,7 +241,7 @@ const GameCard = ({ game, onOpenBoxscore, gameDataMap }) => {
                   onOpenBoxscore(matchupClean);
                 }}
                 className="btn btn-primary"
-                style={{ fontSize: '0.72rem', padding: '8px 24px' }}
+                style={{ fontSize: '0.72rem', padding: '8px 24px', borderRadius: '4px' }}
               >
                 Full Boxscore →
               </button>
@@ -261,7 +261,7 @@ const SponsorBlock = ({ sponsors, closing }) => {
       marginTop: '32px',
       border: '1px solid #eeeeee',
       borderTop: '4px solid #1a1a1a',
-      borderRadius: '0.75rem',
+      borderRadius: '0.25rem',
       overflow: 'hidden',
       background: '#fafafa',
       textAlign: 'left'
@@ -314,7 +314,7 @@ const SponsorBlock = ({ sponsors, closing }) => {
                 padding: '10px 16px',
                 borderLeft: '3px solid #ff4d4d',
                 background: '#fff',
-                borderRadius: '0 6px 6px 0',
+                borderRadius: '0 4px 4px 0',
               }}>
                 <p style={{
                   fontFamily: "'Montserrat', sans-serif",
@@ -507,6 +507,11 @@ const Recaps = () => {
 
   return (
     <div className="px-3 px-md-5 py-5" style={{ textAlign: 'left' }}>
+      <style>{`
+        .week-badge {
+          border-radius: 4px !important;
+        }
+      `}</style>
       <div className="mb-5" style={{ textAlign: 'left' }}>
         <h1 className="rosters-heading" style={{ textAlign: 'left', margin: '0', fontSize: '2.5rem' }}>Game Recaps</h1>
       </div>

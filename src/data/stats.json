@@ -2,7 +2,7 @@
   
   "PPG", "APG", "RPG", 
   "2PT", "3PT", "FG", "FT", 
-  "Points", "Assists", "REB", "Steals", "Blocks", 
+  "Points", "Assists", "REB", "OReb", "DReb", "Steals", "Blocks", 
   "Fouls",
   "Games Played"
 ]

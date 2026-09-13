@@ -10,6 +10,8 @@ export const calculateSeasonStats = (playerGames) => {
     points: 0,
     assists: 0,
     rebounds: 0,
+    oreb: 0,
+    dreb: 0,
     steals: 0,
     blocks: 0,
     deflections: 0,
@@ -47,6 +49,8 @@ export const calculateSeasonStats = (playerGames) => {
       const offensive = Number(game["Off Reb"] || 0);
       const defensive = Number(game["Def Reb"] || 0);
       totals.rebounds += (offensive + defensive);
+      totals.oreb += offensive;
+      totals.dreb += defensive;
 
       totals.steals += Number(game.Steals || 0);
       totals.blocks += Number(game.Blocks || 0);

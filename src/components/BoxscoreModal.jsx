@@ -9,42 +9,7 @@ const BoxscoreModal = ({ show, onHide, gameData }) => {
   const t1 = gameData.scores?.team1 || {};
   const t2 = gameData.scores?.team2 || {};
   
-  // Look specifically for OT keys in the score object
   const hasOT = t1.OT1 !== undefined || t2.OT1 !== undefined;
-
-  const renderTeamTable = (teamName, players) => (
-    <div key={teamName} className="mb-4">
-      <h3 className="fw-black bg-dark text-white p-2 h6 d-flex justify-content-between align-items-center italic">
-        {teamName} <Badge bg="danger" style={{ fontSize: '10px' }}>STATS</Badge>
-      </h3>
-      <Table responsive hover size="sm" className="mb-0 border">
-        <thead className="table-light small">
-          <tr style={{ fontSize: '11px' }}>
-            <th className="ps-3">PLAYER</th>
-            <th className="text-center">PTS</th>
-            <th className="text-center">FG</th>
-            <th className="text-center">3PT</th>
-            <th className="text-center">FT</th>
-            <th className="text-center">REB</th>
-            <th className="text-center">AST</th>
-          </tr>
-        </thead>
-        <tbody>
-          {players.map((p, i) => (
-            <tr key={i} style={{ fontSize: '13px' }}>
-              <td className="fw-bold ps-3">{p["Player Name"]}</td>
-              <td className="text-center fw-black h6">{p.Points}</td>
-              <td className="text-center">{p.FGM}/{p.FGA}</td>
-              <td className="text-center">{p["3FGM"]}/{p["3FGA"]}</td>
-              <td className="text-center">{p.FTM}/{p.FTA}</td>
-              <td className="text-center">{Number(p["Off Reb"] || 0) + Number(p["Def Reb"] || 0)}</td>
-              <td className="text-center">{p.Assists}</td>
-            </tr>
-          ))}
-        </tbody>
-      </Table>
-    </div>
-  );
 
   return (
     <Modal show={show} onHide={onHide} size="xl" centered scrollable>
@@ -74,7 +39,50 @@ const BoxscoreModal = ({ show, onHide, gameData }) => {
           </div>
           <div className="small text-muted fw-bold mt-2">{gameData.date}</div>
         </div>
-        {Object.entries(groupedStats).map(([team, players]) => renderTeamTable(team, players))}
+
+        <div className="mb-4">
+          <Table responsive hover size="sm" className="mb-0 border">
+            <thead className="table-light small">
+              <tr style={{ fontSize: '11px' }}>
+                <th className="ps-3" style={{ width: '26%' }}>PLAYER</th>
+                <th className="text-center" style={{ width: '9%' }}>PTS</th>
+                <th className="text-center" style={{ width: '9%' }}>FG</th>
+                <th className="text-center" style={{ width: '9%' }}>3PT</th>
+                <th className="text-center" style={{ width: '9%' }}>FT</th>
+                <th className="text-center" style={{ width: '9%' }}>REB</th>
+                <th className="text-center" style={{ width: '9%' }}>AST</th>
+                <th className="text-center" style={{ width: '10%' }}>BLK</th>
+                <th className="text-center" style={{ width: '10%' }}>STL</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Object.entries(groupedStats).map(([teamName, players]) => (
+                <React.Fragment key={teamName}>
+                  <tr className="bg-dark text-white">
+                    <td colSpan="9" className="p-2 bg-dark text-white">
+                      <div className="d-flex justify-content-between align-items-center italic fw-black bg-dark text-white" style={{ fontSize: '12px' }}>
+                        {teamName}
+                      </div>
+                    </td>
+                  </tr>
+                  {players.map((p, i) => (
+                    <tr key={`${teamName}-${i}`} style={{ fontSize: '13px' }}>
+                      <td className="fw-bold ps-3">{p["Player Name"]}</td>
+                      <td className="text-center fw-black h6">{p.Points}</td>
+                      <td className="text-center">{p.FGM}/{p.FGA}</td>
+                      <td className="text-center">{p["3FGM"]}/{p["3FGA"]}</td>
+                      <td className="text-center">{p.FTM}/{p.FTA}</td>
+                      <td className="text-center">{Number(p["Off Reb"] || 0) + Number(p["Def Reb"] || 0)}</td>
+                      <td className="text-center">{p.Assists}</td>
+                      <td className="text-center">{p.Blocks || 0}</td>
+                      <td className="text-center">{p.Steals || 0}</td>
+                    </tr>
+                  ))}
+                </React.Fragment>
+              ))}
+            </tbody>
+          </Table>
+        </div>
       </Modal.Body>
     </Modal>
   );
