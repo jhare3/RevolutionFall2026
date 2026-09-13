@@ -11,8 +11,11 @@ const Stats = () => {
   const [teamFilter, setTeamFilter] = useState('');
 
   const scrollRef = useRef(null);
-  const dragInfo = useRef({ isDown: false, startX: 0, startScrollLeft: 0, moved: false });
-  const [scrollState, setScrollState] = useState({ atStart: true, atEnd: true, scrollable: false, thumbWidthPct: 100, thumbLeftPct: 0 });
+  const dragInfo = useRef({ isDown: false, startX: 0, startScrollLeft: 0 });
+  const thumbRef = useRef(null);
+  const fadeLeftRef = useRef(null);
+  const fadeRightRef = useRef(null);
+  const [scrollable, setScrollable] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
 
@@ -28,23 +31,36 @@ const Stats = () => {
     return [...new Set(teams)].sort();
   }, []);
 
+  // Writes straight to the DOM (thumb width/position, edge fade opacity)
+  // instead of React state, so scroll events don't re-render the whole
+  // (column-heavy) table on every tick - this is what keeps it smooth.
   const updateScrollState = () => {
     const el = scrollRef.current;
     if (!el) return;
     const { scrollLeft, scrollWidth, clientWidth } = el;
     const maxScroll = scrollWidth - clientWidth;
-    const thumbWidthPct = Math.min(100, (clientWidth / scrollWidth) * 100);
-    const thumbLeftPct = maxScroll > 0 ? (scrollLeft / maxScroll) * (100 - thumbWidthPct) : 0;
-    setScrollState({
-      atStart: scrollLeft <= 4,
-      atEnd: scrollLeft >= maxScroll - 4,
-      scrollable: scrollWidth > clientWidth + 4,
-      thumbWidthPct,
-      thumbLeftPct
-    });
+    const isScrollable = scrollWidth > clientWidth + 4;
+    const atStart = scrollLeft <= 4;
+    const atEnd = scrollLeft >= maxScroll - 4;
+
+    if (thumbRef.current) {
+      const thumbWidthPct = Math.min(100, (clientWidth / scrollWidth) * 100);
+      const thumbLeftPct = maxScroll > 0 ? (scrollLeft / maxScroll) * (100 - thumbWidthPct) : 0;
+      thumbRef.current.style.width = `${thumbWidthPct}%`;
+      thumbRef.current.style.left = `${thumbLeftPct}%`;
+    }
+    if (fadeLeftRef.current) {
+      fadeLeftRef.current.style.opacity = !isScrollable || atStart ? 0 : 1;
+    }
+    if (fadeRightRef.current) {
+      fadeRightRef.current.style.opacity = !isScrollable || atEnd ? 0 : 1;
+    }
+
+    setScrollable(prev => (prev === isScrollable ? prev : isScrollable));
   };
 
-  // Track scroll position for edge fades + hide the hint once the user engages
+  // Track scroll position for edge fades / mini progress bar; hint arrow
+  // dismissal piggybacks on the same event but only fires state once.
   const handleScroll = () => {
     updateScrollState();
     if (!hasInteracted) setHasInteracted(true);
@@ -76,7 +92,7 @@ const Stats = () => {
   const handleMouseDown = (e) => {
     const el = scrollRef.current;
     if (!el) return;
-    dragInfo.current = { isDown: true, startX: e.pageX, startScrollLeft: el.scrollLeft, moved: false };
+    dragInfo.current = { isDown: true, startX: e.pageX, startScrollLeft: el.scrollLeft };
     setIsDragging(true);
   };
 
@@ -84,7 +100,6 @@ const Stats = () => {
     const el = scrollRef.current;
     if (!el || !dragInfo.current.isDown) return;
     const delta = e.pageX - dragInfo.current.startX;
-    if (Math.abs(delta) > 3) dragInfo.current.moved = true;
     el.scrollLeft = dragInfo.current.startScrollLeft - delta;
   };
 
@@ -234,9 +249,9 @@ const Stats = () => {
       </div>
 
       <div style={tableOuterWrapper}>
-        {scrollState.scrollable && (
+        {scrollable && (
           <div style={miniScrollTrack}>
-            <div style={{ ...miniScrollThumb, width: `${scrollState.thumbWidthPct}%`, left: `${scrollState.thumbLeftPct}%` }} />
+            <div ref={thumbRef} style={miniScrollThumb} />
           </div>
         )}
 
@@ -282,10 +297,10 @@ const Stats = () => {
           </table>
         </div>
 
-        <div style={{ ...edgeFadeLeft, opacity: !scrollState.scrollable || scrollState.atStart ? 0 : 1 }} />
-        <div style={{ ...edgeFadeRight, opacity: !scrollState.scrollable || scrollState.atEnd ? 0 : 1 }} />
+        <div ref={fadeLeftRef} style={edgeFadeLeft} />
+        <div ref={fadeRightRef} style={edgeFadeRight} />
 
-        {scrollState.scrollable && !hasInteracted && (
+        {scrollable && !hasInteracted && (
           <div style={scrollHintArrow}>
             <span style={scrollHintDot}>›</span>
           </div>
@@ -328,12 +343,12 @@ const cellStack = { display: 'flex', flexDirection: 'column', alignItems: 'cente
 const primaryText = { fontWeight: '600', color: '#111' };
 const pctBadge = { fontSize: '10px', backgroundColor: '#111', color: '#fff', padding: '1px 5px', borderRadius: '3px', fontWeight: '700' };
 const rowStyle = { transition: 'background 0.2s' };
-const edgeFadeBase = { position: 'absolute', top: 0, bottom: 0, width: '32px', pointerEvents: 'none', transition: 'opacity 0.25s ease', zIndex: 8, borderRadius: '6px' };
+const edgeFadeBase = { position: 'absolute', top: 0, bottom: 0, width: '32px', pointerEvents: 'none', transition: 'opacity 0.25s ease', zIndex: 8, borderRadius: '6px', opacity: 0 };
 const edgeFadeLeft = { ...edgeFadeBase, left: 0, background: 'linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0))' };
 const edgeFadeRight = { ...edgeFadeBase, right: 0, width: '22px', background: 'linear-gradient(to left, rgba(255,255,255,0.65), rgba(255,255,255,0))' };
-const scrollHintArrow = { position: 'absolute', right: '6px', top: '50%', transform: 'translate(0, -50%)', zIndex: 9, pointerEvents: 'none', animation: 'statsScrollHintBounce 2.1s ease-in-out infinite' };
+const scrollHintArrow = { position: 'absolute', right: '6px', top: '50%', transform: 'translate(0, -50%)', zIndex: 9, pointerEvents: 'none', animation: 'statsScrollHintBounce 1.2s ease-in-out infinite' };
 const scrollHintDot = { display: 'flex', alignItems: 'center', justifyContent: 'center', width: '22px', height: '22px', borderRadius: '50%', backgroundColor: '#ff4d4d', color: '#fff', fontWeight: '700', fontSize: '15px', lineHeight: 1, boxShadow: '0 1px 4px rgba(0,0,0,0.25)' };
 const miniScrollTrack = { position: 'relative', width: '100%', height: '2.5px', backgroundColor: '#eee', borderRadius: '999px', marginBottom: '7px', overflow: 'hidden' };
-const miniScrollThumb = { position: 'absolute', top: 0, bottom: 0, backgroundColor: '#ff4d4d', borderRadius: '999px', transition: 'left 0.05s linear' };
+const miniScrollThumb = { position: 'absolute', top: 0, bottom: 0, left: 0, width: '100%', backgroundColor: '#ff4d4d', borderRadius: '999px', transition: 'left 0.05s linear' };
 
 export default Stats;

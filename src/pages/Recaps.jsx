@@ -22,22 +22,23 @@ const TEAM_COLORS = {
   ORANGE: '#fd7e14',
 };
 
-const LIGHT_TEAMS = new Set(['YELLOW', 'WHITE', 'TAN']);
-
 const getTeamColor = (name) => {
   const key = name?.toUpperCase().trim().split(' ')[0];
   return TEAM_COLORS[key] || '#1a1a1a';
 };
 
-const isLightTeam = (name) => {
-  const key = name?.toUpperCase().trim().split(' ')[0];
-  return LIGHT_TEAMS.has(key);
+const hexToRgba = (hex, alpha) => {
+  const clean = hex.replace('#', '');
+  const r = parseInt(clean.substring(0, 2), 16);
+  const g = parseInt(clean.substring(2, 4), 16);
+  const b = parseInt(clean.substring(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 
 const TeamPill = ({ name }) => (
   <span style={{
-    background: getTeamColor(name),
-    color: isLightTeam(name) ? '#1a1a1a' : '#fff',
+    background: hexToRgba(getTeamColor(name), 0.1),
+    color: '#1a1a1a',
     fontFamily: "'Montserrat', sans-serif",
     fontWeight: 800,
     fontStyle: 'italic',
@@ -181,7 +182,7 @@ const GameCard = ({ game, onOpenBoxscore, gameDataMap }) => {
             fontWeight: 900,
             fontSize: '0.58rem',
             letterSpacing: '0.2em',
-            color: '#ff4d4d',
+            color: '#2a2727',
             textTransform: 'uppercase',
           }}>{gameLabel}</span>
           <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
