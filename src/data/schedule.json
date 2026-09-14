@@ -1,111 +1,80 @@
 [
   {
     "week": 1,
-    "date": "TBD",
-    "location": "TBD",
+    "date": "Sept. 20",
+    "location": "Tuttle Middle School, South Burlington",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Black vs White" },
+      { "time": "9:00 AM", "matchup": "Gray vs Orange" },
+      { "time": "10:00 AM", "matchup": "Green vs Pink" },
+      { "time": "11:00 AM", "matchup": "Blue vs Red" }
+    ]
   },
   {
     "week": 2,
-    "date": "TBD",
+    "date": "Sept. 27",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Gray vs Pink" },
+      { "time": "9:00 AM", "matchup": "Black vs Red" },
+      { "time": "10:00 AM", "matchup": "Blue vs White" },
+      { "time": "11:00 AM", "matchup": "Green vs Orange" }
+    ]
   },
   {
     "week": 3,
-    "date": "TBD",
+    "date": "Oct. 4",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Red vs White" },
+      { "time": "9:00 AM", "matchup": "Gray vs Green" },
+      { "time": "10:00 AM", "matchup": "Orange vs Pink" },
+      { "time": "11:00 AM", "matchup": "Black vs Blue" }
+    ]
   },
   {
     "week": 4,
-    "date": "TBD",
+    "date": "Oct. 11",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Blue vs Green" },
+      { "time": "9:00 AM", "matchup": "Orange vs White" },
+      { "time": "10:00 AM", "matchup": "Black vs Gray" },
+      { "time": "11:00 AM", "matchup": "Pink vs Red" }
+    ]
   },
   {
     "week": 5,
-    "date": "TBD",
+    "date": "Oct. 25",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Green vs Red" },
+      { "time": "9:00 AM", "matchup": "Blue vs Pink" },
+      { "time": "10:00 AM", "matchup": "Gray vs White" },
+      { "time": "11:00 AM", "matchup": "Black vs Orange" }
+    ]
   },
   {
     "week": 6,
-    "date": "TBD",
+    "date": "Nov. 8",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Black vs Pink" },
+      { "time": "9:00 AM", "matchup": "Green vs White" },
+      { "time": "10:00 AM", "matchup": "Blue vs Orange" },
+      { "time": "11:00 AM", "matchup": "Gray vs Red" }
+    ]
   },
   {
     "week": 7,
-    "date": "TBD",
+    "date": "Nov. 15",
     "location": "TBD",
     "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
-  },
-  {
-    "week": 8,
-    "date": "TBD",
-    "location": "TBD",
-    "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
-  },
-  {
-    "week": 9,
-    "date": "TBD",
-    "location": "TBD",
-    "games": [
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" },
-      { "time": "TBD", "matchup": "TBD vs TBD" }
-    ],
-    "bye": "TBD"
+      { "time": "8:00 AM", "matchup": "Blue vs Gray" },
+      { "time": "9:00 AM", "matchup": "Orange vs Red" },
+      { "time": "10:00 AM", "matchup": "Black vs Green" },
+      { "time": "11:00 AM", "matchup": "Pink vs White" }
+    ]
   },
   {
     "week": "Playoffs",
