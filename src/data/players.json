@@ -3,62 +3,6 @@
   "season": "2026",
   "players": [
     {
-      "id": 1,
-      "first_name": "James",
-      "last_name": "Hare",
-      "team": "Green",
-      "captain": true
-    },
-    {
-      "id": 2,
-      "first_name": "Fab",
-      "last_name": "Anthony",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 3,
-      "first_name": "Dennis",
-      "last_name": "Schut",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 4,
-      "first_name": "Peter",
-      "last_name": "Lindholm",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 5,
-      "first_name": "Kenny",
-      "last_name": "Black",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 6,
-      "first_name": "Hans",
-      "last_name": "Lynn",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 7,
-      "first_name": "Logan",
-      "last_name": "Pelchar",
-      "team": "Green",
-      "captain": false
-    },
-    {
-      "id": 8,
-      "first_name": "John",
-      "last_name": "O'Brien",
-      "team": "Green",
-      "captain": false
-    },
-    {
       "id": 9,
       "first_name": "Jaren",
       "last_name": "Jeffcoat",
@@ -112,6 +56,62 @@
       "first_name": "Ben",
       "last_name": "Calle",
       "team": "Gray",
+      "captain": false
+    },
+    {
+      "id": 1,
+      "first_name": "James",
+      "last_name": "Hare",
+      "team": "Green",
+      "captain": true
+    },
+    {
+      "id": 2,
+      "first_name": "Fab",
+      "last_name": "Anthony",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 3,
+      "first_name": "Dennis",
+      "last_name": "Schut",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 4,
+      "first_name": "Peter",
+      "last_name": "Lindholm",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 5,
+      "first_name": "Kenny",
+      "last_name": "Black",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 6,
+      "first_name": "Hans",
+      "last_name": "Lynn",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 7,
+      "first_name": "Logan",
+      "last_name": "Pelchar",
+      "team": "Green",
+      "captain": false
+    },
+    {
+      "id": 8,
+      "first_name": "John",
+      "last_name": "O'Brien",
+      "team": "Green",
       "captain": false
     },
     {
