@@ -4,8 +4,6 @@ export const calculateStandings = (gameFiles, rosterData) => {
   const teams = {};
 
   // 1. Initialize all teams from the roster itself to ensure 0-0 teams appear.
-  // Conferences are no longer used this season, so derive the team list
-  // directly from players.json instead of rosterData.conferences.
   const teamNames = [...new Set(rosterData.players.map(p => p.team.toUpperCase()))];
 
   const setup = (name) => {
@@ -20,7 +18,8 @@ export const calculateStandings = (gameFiles, rosterData) => {
   // Create a player-to-team lookup map from players.json
   const playerToTeam = {};
   rosterData.players.forEach(p => {
-    playerToTeam[p.first_name + " " + p.last_name] = p.team.toUpperCase();
+    const fullName = `${p.first_name} ${p.last_name}`.toLowerCase();
+    playerToTeam[fullName] = p.team.toUpperCase();
   });
 
   // 2. Process Game Files
@@ -32,8 +31,12 @@ export const calculateStandings = (gameFiles, rosterData) => {
 
     // Aggregate points by looking up each player's team
     gameData.stats.forEach(row => {
-      const playerName = row["Player Name"];
-      const teamName = playerToTeam[playerName];
+      const rawName = row["Player Name"];
+      if (!rawName) return;
+
+      // Strip out leading numbers, hash signs, and extra spacing to match roster keys
+      const cleanName = rawName.replace(/^#\d+\s*/, '').trim().toLowerCase();
+      const teamName = playerToTeam[cleanName];
       
       if (teamName) {
         if (!gameScores[teamName]) gameScores[teamName] = 0;

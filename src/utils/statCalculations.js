@@ -56,7 +56,7 @@ export const calculateSeasonStats = (playerGames) => {
       totals.blocks += Number(game.Blocks || 0);
       totals.deflections += Number(game.Deflections || 0);
       totals.fouls += Number(game.Fouls || 0);
-      totals.charges += Number(game["Charge Taken"] || 0);
+      totals.charges += Number(game["Charge Taken"] || game["Charge  Taken"] || 0);
       totals.airballs += Number(game.Airball || 0);
       
       const twoM = Number(game["2FGM"] || 0);

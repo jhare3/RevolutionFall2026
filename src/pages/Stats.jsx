@@ -31,9 +31,6 @@ const Stats = () => {
     return [...new Set(teams)].sort();
   }, []);
 
-  // Writes straight to the DOM (thumb width/position, edge fade opacity)
-  // instead of React state, so scroll events don't re-render the whole
-  // (column-heavy) table on every tick - this is what keeps it smooth.
   const updateScrollState = () => {
     const el = scrollRef.current;
     if (!el) return;
@@ -59,21 +56,17 @@ const Stats = () => {
     setScrollable(prev => (prev === isScrollable ? prev : isScrollable));
   };
 
-  // Track scroll position for edge fades / mini progress bar; hint arrow
-  // dismissal piggybacks on the same event but only fires state once.
   const handleScroll = () => {
     updateScrollState();
     if (!hasInteracted) setHasInteracted(true);
   };
 
-  // Recalculate on resize and whenever the visible columns/rows change
   useEffect(() => {
     updateScrollState();
     window.addEventListener('resize', updateScrollState);
     return () => window.removeEventListener('resize', updateScrollState);
   }, [dynamicColumns]);
 
-  // One-time nudge on mount to hint that the table scrolls sideways
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
@@ -88,7 +81,6 @@ const Stats = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Click-and-drag scrolling for mouse/trackpad users
   const handleMouseDown = (e) => {
     const el = scrollRef.current;
     if (!el) return;
@@ -111,9 +103,13 @@ const Stats = () => {
   const processedPlayers = useMemo(() => {
     return (rosterData.players || []).map(player => {
       const fullName = `${player.first_name} ${player.last_name}`.trim();
-      const playerGames = allGameRows.filter(row => 
-        row['Player Name']?.trim().toUpperCase() === fullName.toUpperCase()
-      );
+      
+      const playerGames = allGameRows.filter(row => {
+        const rawName = row['Player Name'];
+        if (!rawName) return false;
+        const cleanRowName = rawName.replace(/^#\d+\s*/, '').trim();
+        return cleanRowName.toUpperCase() === fullName.toUpperCase();
+      });
       
       const calculatedStats = calculateSeasonStats(playerGames);
 
