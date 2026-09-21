@@ -1,8 +1,13 @@
 import playersData from '../data/players.json';
 
 export const getPlayerTeam = (playerName) => {
+  if (!playerName) return 'Unknown';
+  
+  // Strip out leading numbers and hash signs (e.g., "#7 Cody Jarvis" -> "Cody Jarvis")
+  const cleanName = playerName.replace(/^#\d+\s*/, '').trim();
+
   const player = playersData.players.find(
-    p => `${p.first_name} ${p.last_name}`.toLowerCase() === playerName.toLowerCase()
+    p => `${p.first_name} ${p.last_name}`.toLowerCase() === cleanName.toLowerCase()
   );
   return player ? player.team : 'Unknown';
 };

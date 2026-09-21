@@ -7,6 +7,7 @@
       "first_name": "Austin",
       "last_name": "Hamlin",
       "team": "Black",
+      "number": 2,
       "captain": true
     },
     {
@@ -14,6 +15,7 @@
       "first_name": "Matt",
       "last_name": "Riordan",
       "team": "Black",
+      "number": 2,
       "captain": false
     },
     {
@@ -21,6 +23,7 @@
       "first_name": "Nick",
       "last_name": "Lynn",
       "team": "Black",
+      "number": "00",
       "captain": false
     },
     {
@@ -28,6 +31,7 @@
       "first_name": "Drew",
       "last_name": "Fisher",
       "team": "Black",
+      "number": 4,
       "captain": false
     },
     {
@@ -35,6 +39,7 @@
       "first_name": "Brody",
       "last_name": "Snow",
       "team": "Black",
+      "number": 5,
       "captain": false
     },
     {
@@ -42,6 +47,7 @@
       "first_name": "Aiden",
       "last_name": "Brown",
       "team": "Black",
+      "number": 7,
       "captain": false
     },
     {
@@ -49,6 +55,7 @@
       "first_name": "Jordan",
       "last_name": "Sanderson",
       "team": "Black",
+      "number": 0,
       "captain": false
     },
     {
@@ -56,6 +63,7 @@
       "first_name": "Harvey",
       "last_name": "Merrill",
       "team": "Black",
+      "number": 0,
       "captain": false
     },
     {
@@ -63,6 +71,7 @@
       "first_name": "Andy",
       "last_name": "Bousono",
       "team": "White",
+      "number": 3,
       "captain": true
     },
     {
@@ -70,6 +79,7 @@
       "first_name": "Asko",
       "last_name": "Mostarlic",
       "team": "White",
+      "number": 7,
       "captain": false
     },
     {
@@ -77,6 +87,7 @@
       "first_name": "Joe",
       "last_name": "Ruggles",
       "team": "White",
+      "number": 1,
       "captain": false
     },
     {
@@ -84,6 +95,7 @@
       "first_name": "Aaron",
       "last_name": "West",
       "team": "White",
+      "number": 0,
       "captain": false
     },
     {
@@ -91,6 +103,7 @@
       "first_name": "Aid",
       "last_name": "Semic",
       "team": "White",
+      "number": 0,
       "captain": false
     },
     {
@@ -98,6 +111,7 @@
       "first_name": "Adam",
       "last_name": "Gawrys",
       "team": "White",
+      "number": 2,
       "captain": false
     },
     {
@@ -105,6 +119,7 @@
       "first_name": "Owen",
       "last_name": "Spino",
       "team": "White",
+      "number": 4,
       "captain": false
     },
     {
@@ -112,6 +127,7 @@
       "first_name": "Mayceo",
       "last_name": "Edwards",
       "team": "White",
+      "number": 0,
       "captain": false
     },
     {
@@ -119,6 +135,7 @@
       "first_name": "Cam",
       "last_name": "Perta",
       "team": "Red",
+      "number": 6,
       "captain": true
     },
     {
@@ -126,6 +143,7 @@
       "first_name": "Bela",
       "last_name": "Dobkowski",
       "team": "Red",
+      "number": 0,
       "captain": false
     },
     {
@@ -133,6 +151,7 @@
       "first_name": "Drew",
       "last_name": "Pelkey",
       "team": "Red",
+      "number": 7,
       "captain": false
     },
     {
@@ -140,6 +159,7 @@
       "first_name": "Alex",
       "last_name": "Philo",
       "team": "Red",
+      "number": 0,
       "captain": false
     },
     {
@@ -147,6 +167,7 @@
       "first_name": "Logan",
       "last_name": "Letourneau",
       "team": "Red",
+      "number": 1,
       "captain": false
     },
     {
@@ -154,6 +175,7 @@
       "first_name": "Dylan",
       "last_name": "Mackie",
       "team": "Red",
+      "number": 3,
       "captain": false
     },
     {
@@ -161,6 +183,7 @@
       "first_name": "Brody",
       "last_name": "Lathrop",
       "team": "Red",
+      "number": 0,
       "captain": false
     },
     {
@@ -168,6 +191,7 @@
       "first_name": "Hayden",
       "last_name": "Bernhardt",
       "team": "Red",
+      "number": 0,
       "captain": false
     },
     {
@@ -175,6 +199,7 @@
       "first_name": "Jaren",
       "last_name": "Jeffcoat",
       "team": "Gray",
+      "number": 0,
       "captain": true
     },
     {
@@ -182,6 +207,7 @@
       "first_name": "Jimmy",
       "last_name": "Warden",
       "team": "Gray",
+      "number": 8,
       "captain": false
     },
     {
@@ -189,6 +215,7 @@
       "first_name": "Ethan",
       "last_name": "Calle",
       "team": "Gray",
+      "number": 4,
       "captain": false
     },
     {
@@ -196,13 +223,15 @@
       "first_name": "Ben",
       "last_name": "Calle",
       "team": "Gray",
+      "number": 5,
       "captain": false
     },
     {
       "id": 29,
-      "first_name": "Brendan",
-      "last_name": "Huestis",
+      "first_name": "Evan",
+      "last_name": "Amell",
       "team": "Gray",
+      "number": 7,
       "captain": false
     },
     {
@@ -210,6 +239,7 @@
       "first_name": "Jeromy",
       "last_name": "Anderson",
       "team": "Gray",
+      "number": 6,
       "captain": false
     },
     {
@@ -217,6 +247,7 @@
       "first_name": "Cory",
       "last_name": "Chaplin",
       "team": "Gray",
+      "number": 1,
       "captain": false
     },
     {
@@ -224,13 +255,15 @@
       "first_name": "Cyle",
       "last_name": "Chaplin",
       "team": "Gray",
+      "number": 3,
       "captain": false
     },
     {
       "id": 33,
-      "first_name": "Ty",
+      "first_name": "Tylor",
       "last_name": "Gray",
       "team": "Orange",
+      "number": 2,
       "captain": true
     },
     {
@@ -238,6 +271,7 @@
       "first_name": "Kerry",
       "last_name": "Lyons",
       "team": "Orange",
+      "number": 5,
       "captain": false
     },
     {
@@ -245,6 +279,7 @@
       "first_name": "Kyle",
       "last_name": "Haley",
       "team": "Orange",
+      "number": 5,
       "captain": false
     },
     {
@@ -252,6 +287,7 @@
       "first_name": "Edo",
       "last_name": "Semic",
       "team": "Orange",
+      "number": 3,
       "captain": false
     },
     {
@@ -259,6 +295,7 @@
       "first_name": "Brandon",
       "last_name": "Boyer",
       "team": "Orange",
+      "number": 4,
       "captain": false
     },
     {
@@ -266,13 +303,15 @@
       "first_name": "Carter",
       "last_name": "Beeman",
       "team": "Orange",
+      "number": 1,
       "captain": false
     },
     {
       "id": 39,
       "first_name": "Wyatt",
-      "last_name": "Jarvis-Comi",
+      "last_name": "Jarvis Comi",
       "team": "Orange",
+      "number": 6,
       "captain": false
     },
     {
@@ -280,6 +319,7 @@
       "first_name": "Joel",
       "last_name": "McMahon",
       "team": "Orange",
+      "number": 0,
       "captain": false
     },
     {
@@ -287,6 +327,7 @@
       "first_name": "Liam",
       "last_name": "Walsh",
       "team": "Pink",
+      "number": 3,
       "captain": true
     },
     {
@@ -294,6 +335,7 @@
       "first_name": "Matt",
       "last_name": "Spear",
       "team": "Pink",
+      "number": 1,
       "captain": false
     },
     {
@@ -301,13 +343,15 @@
       "first_name": "Dylan",
       "last_name": "Pratico",
       "team": "Pink",
+      "number": 7,
       "captain": false
     },
     {
       "id": 44,
-      "first_name": "Brando",
+      "first_name": "Brandon",
       "last_name": "Pratico",
       "team": "Pink",
+      "number": 9,
       "captain": false
     },
     {
@@ -315,6 +359,7 @@
       "first_name": "Paddy",
       "last_name": "Monaghan",
       "team": "Pink",
+      "number": 4,
       "captain": false
     },
     {
@@ -322,6 +367,7 @@
       "first_name": "Jake",
       "last_name": "Dion",
       "team": "Pink",
+      "number": 6,
       "captain": false
     },
     {
@@ -329,13 +375,15 @@
       "first_name": "Paul",
       "last_name": "Gutierrez",
       "team": "Pink",
+      "number": 2,
       "captain": false
     },
     {
       "id": 48,
       "first_name": "Caleb",
-      "last_name": "Jarvis-Comi",
+      "last_name": "Jarvis Comi",
       "team": "Pink",
+      "number": 8,
       "captain": false
     },
     {
@@ -343,6 +391,7 @@
       "first_name": "James",
       "last_name": "Hare",
       "team": "Green",
+      "number": 7,
       "captain": true
     },
     {
@@ -350,6 +399,7 @@
       "first_name": "Fab",
       "last_name": "Anthony",
       "team": "Green",
+      "number": 6,
       "captain": false
     },
     {
@@ -357,6 +407,7 @@
       "first_name": "Dennis",
       "last_name": "Schut",
       "team": "Green",
+      "number": 0,
       "captain": false
     },
     {
@@ -364,6 +415,7 @@
       "first_name": "Peter",
       "last_name": "Lindholm",
       "team": "Green",
+      "number": 3,
       "captain": false
     },
     {
@@ -371,6 +423,7 @@
       "first_name": "Logan",
       "last_name": "Pelchar",
       "team": "Green",
+      "number": 0,
       "captain": false
     },
     {
@@ -378,6 +431,7 @@
       "first_name": "Kenny",
       "last_name": "Black",
       "team": "Green",
+      "number": 5,
       "captain": false
     },
     {
@@ -385,6 +439,7 @@
       "first_name": "John",
       "last_name": "O'Brien",
       "team": "Green",
+      "number": 1,
       "captain": false
     },
     {
@@ -392,6 +447,7 @@
       "first_name": "Hans",
       "last_name": "Lynn",
       "team": "Green",
+      "number": 0,
       "captain": false
     },
     {
@@ -399,13 +455,15 @@
       "first_name": "Will",
       "last_name": "Ewald",
       "team": "Blue",
+      "number": 6,
       "captain": true
     },
     {
       "id": 58,
       "first_name": "Eliezer",
-      "last_name": "Perez Jr.",
+      "last_name": "Perez",
       "team": "Blue",
+      "number": 5,
       "captain": false
     },
     {
@@ -413,6 +471,7 @@
       "first_name": "Kyle",
       "last_name": "Picard",
       "team": "Blue",
+      "number": 3,
       "captain": false
     },
     {
@@ -420,6 +479,7 @@
       "first_name": "Will",
       "last_name": "Oboh",
       "team": "Blue",
+      "number": 4,
       "captain": false
     },
     {
@@ -427,6 +487,7 @@
       "first_name": "John",
       "last_name": "Helsel",
       "team": "Blue",
+      "number": 1,
       "captain": false
     },
     {
@@ -434,6 +495,7 @@
       "first_name": "Kolby",
       "last_name": "Bradford",
       "team": "Blue",
+      "number": 2,
       "captain": false
     },
     {
@@ -441,6 +503,7 @@
       "first_name": "Mark",
       "last_name": "Nigolian",
       "team": "Blue",
+      "number": 0,
       "captain": false
     },
     {
@@ -448,6 +511,7 @@
       "first_name": "Cody",
       "last_name": "Jarvis",
       "team": "Blue",
+      "number": 7,
       "captain": false
     }
   ]
