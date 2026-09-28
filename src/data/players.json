@@ -7,512 +7,512 @@
       "first_name": "Austin",
       "last_name": "Hamlin",
       "team": "Black",
-      "number": 2,
-      "captain": true
+      "captain": true,
+      "number": "2"
     },
     {
       "id": 2,
       "first_name": "Matt",
       "last_name": "Riordan",
       "team": "Black",
-      "number": 2,
-      "captain": false
+      "captain": false,
+      "number": "2"
     },
     {
       "id": 3,
       "first_name": "Nick",
       "last_name": "Lynn",
       "team": "Black",
-      "number": "00",
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 4,
       "first_name": "Drew",
       "last_name": "Fisher",
       "team": "Black",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 5,
       "first_name": "Brody",
       "last_name": "Snow",
       "team": "Black",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 6,
       "first_name": "Aiden",
       "last_name": "Brown",
       "team": "Black",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     },
     {
       "id": 7,
       "first_name": "Jordan",
       "last_name": "Sanderson",
       "team": "Black",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "6"
     },
     {
       "id": 8,
       "first_name": "Harvey",
       "last_name": "Merrill",
       "team": "Black",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 9,
       "first_name": "Andy",
       "last_name": "Bousono",
       "team": "White",
-      "number": 3,
-      "captain": true
+      "captain": true,
+      "number": "3"
     },
     {
       "id": 10,
       "first_name": "Asko",
       "last_name": "Mostarlic",
       "team": "White",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     },
     {
       "id": 11,
       "first_name": "Joe",
       "last_name": "Ruggles",
       "team": "White",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 12,
       "first_name": "Aaron",
       "last_name": "West",
       "team": "White",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 13,
       "first_name": "Aid",
       "last_name": "Semic",
       "team": "White",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 14,
       "first_name": "Adam",
       "last_name": "Gawrys",
       "team": "White",
-      "number": 2,
-      "captain": false
+      "captain": false,
+      "number": "2"
     },
     {
       "id": 15,
       "first_name": "Owen",
       "last_name": "Spino",
       "team": "White",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 16,
       "first_name": "Mayceo",
       "last_name": "Edwards",
       "team": "White",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 17,
       "first_name": "Cam",
       "last_name": "Perta",
       "team": "Red",
-      "number": 6,
-      "captain": true
+      "captain": true,
+      "number": "6"
     },
     {
       "id": 18,
       "first_name": "Bela",
       "last_name": "Dobkowski",
       "team": "Red",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 19,
       "first_name": "Drew",
       "last_name": "Pelkey",
       "team": "Red",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     },
     {
       "id": 20,
       "first_name": "Alex",
       "last_name": "Philo",
       "team": "Red",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 21,
       "first_name": "Logan",
       "last_name": "Letourneau",
       "team": "Red",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 22,
       "first_name": "Dylan",
       "last_name": "Mackie",
       "team": "Red",
-      "number": 3,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 23,
       "first_name": "Brody",
       "last_name": "Lathrop",
       "team": "Red",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 24,
       "first_name": "Hayden",
       "last_name": "Bernhardt",
       "team": "Red",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 25,
       "first_name": "Jaren",
       "last_name": "Jeffcoat",
       "team": "Gray",
-      "number": 0,
-      "captain": true
+      "captain": true,
+      "number": "0"
     },
     {
       "id": 26,
       "first_name": "Jimmy",
       "last_name": "Warden",
       "team": "Gray",
-      "number": 8,
-      "captain": false
+      "captain": false,
+      "number": "8"
     },
     {
       "id": 27,
       "first_name": "Ethan",
       "last_name": "Calle",
       "team": "Gray",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 28,
       "first_name": "Ben",
       "last_name": "Calle",
       "team": "Gray",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 29,
       "first_name": "Evan",
       "last_name": "Amell",
       "team": "Gray",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     },
     {
       "id": 30,
       "first_name": "Jeromy",
       "last_name": "Anderson",
       "team": "Gray",
-      "number": 6,
-      "captain": false
+      "captain": false,
+      "number": "6"
     },
     {
       "id": 31,
       "first_name": "Cory",
       "last_name": "Chaplin",
       "team": "Gray",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 32,
       "first_name": "Cyle",
       "last_name": "Chaplin",
       "team": "Gray",
-      "number": 3,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 33,
-      "first_name": "Tylor",
+      "first_name": "Ty",
       "last_name": "Gray",
       "team": "Orange",
-      "number": 2,
-      "captain": true
+      "captain": true,
+      "number": "2"
     },
     {
       "id": 34,
       "first_name": "Kerry",
       "last_name": "Lyons",
       "team": "Orange",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 35,
       "first_name": "Kyle",
       "last_name": "Haley",
       "team": "Orange",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 36,
       "first_name": "Edo",
       "last_name": "Semic",
       "team": "Orange",
-      "number": 3,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 37,
       "first_name": "Brandon",
       "last_name": "Boyer",
       "team": "Orange",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 38,
       "first_name": "Carter",
       "last_name": "Beeman",
       "team": "Orange",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 39,
       "first_name": "Wyatt",
-      "last_name": "Jarvis Comi",
+      "last_name": "Jarvis-Comi",
       "team": "Orange",
-      "number": 6,
-      "captain": false
+      "captain": false,
+      "number": "6"
     },
     {
       "id": 40,
       "first_name": "Joel",
       "last_name": "McMahon",
       "team": "Orange",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 41,
       "first_name": "Liam",
       "last_name": "Walsh",
       "team": "Pink",
-      "number": 3,
-      "captain": true
+      "captain": true,
+      "number": "3"
     },
     {
       "id": 42,
       "first_name": "Matt",
       "last_name": "Spear",
       "team": "Pink",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 43,
       "first_name": "Dylan",
       "last_name": "Pratico",
       "team": "Pink",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     },
     {
       "id": 44,
-      "first_name": "Brandon",
+      "first_name": "Brando",
       "last_name": "Pratico",
       "team": "Pink",
-      "number": 9,
-      "captain": false
+      "captain": false,
+      "number": "9"
     },
     {
       "id": 45,
       "first_name": "Paddy",
       "last_name": "Monaghan",
       "team": "Pink",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 46,
       "first_name": "Jake",
       "last_name": "Dion",
       "team": "Pink",
-      "number": 6,
-      "captain": false
+      "captain": false,
+      "number": "6"
     },
     {
       "id": 47,
       "first_name": "Paul",
       "last_name": "Gutierrez",
       "team": "Pink",
-      "number": 2,
-      "captain": false
+      "captain": false,
+      "number": "2"
     },
     {
       "id": 48,
       "first_name": "Caleb",
-      "last_name": "Jarvis Comi",
+      "last_name": "Jarvis-Comi",
       "team": "Pink",
-      "number": 8,
-      "captain": false
+      "captain": false,
+      "number": "8"
     },
     {
       "id": 49,
       "first_name": "James",
       "last_name": "Hare",
       "team": "Green",
-      "number": 7,
-      "captain": true
+      "captain": true,
+      "number": "7"
     },
     {
       "id": 50,
       "first_name": "Fab",
       "last_name": "Anthony",
       "team": "Green",
-      "number": 6,
-      "captain": false
+      "captain": false,
+      "number": "6"
     },
     {
       "id": 51,
       "first_name": "Dennis",
       "last_name": "Schut",
       "team": "Green",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 52,
       "first_name": "Peter",
       "last_name": "Lindholm",
       "team": "Green",
-      "number": 3,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 53,
       "first_name": "Logan",
       "last_name": "Pelchar",
       "team": "Green",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 54,
       "first_name": "Kenny",
       "last_name": "Black",
       "team": "Green",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 55,
       "first_name": "John",
       "last_name": "O'Brien",
       "team": "Green",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 56,
       "first_name": "Hans",
       "last_name": "Lynn",
       "team": "Green",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 57,
       "first_name": "Will",
       "last_name": "Ewald",
       "team": "Blue",
-      "number": 6,
-      "captain": true
+      "captain": true,
+      "number": "6"
     },
     {
       "id": 58,
       "first_name": "Eliezer",
-      "last_name": "Perez",
+      "last_name": "Perez Jr.",
       "team": "Blue",
-      "number": 5,
-      "captain": false
+      "captain": false,
+      "number": "5"
     },
     {
       "id": 59,
       "first_name": "Kyle",
       "last_name": "Picard",
       "team": "Blue",
-      "number": 3,
-      "captain": false
+      "captain": false,
+      "number": "3"
     },
     {
       "id": 60,
       "first_name": "Will",
       "last_name": "Oboh",
       "team": "Blue",
-      "number": 4,
-      "captain": false
+      "captain": false,
+      "number": "4"
     },
     {
       "id": 61,
       "first_name": "John",
       "last_name": "Helsel",
       "team": "Blue",
-      "number": 1,
-      "captain": false
+      "captain": false,
+      "number": "1"
     },
     {
       "id": 62,
       "first_name": "Kolby",
       "last_name": "Bradford",
       "team": "Blue",
-      "number": 2,
-      "captain": false
+      "captain": false,
+      "number": "2"
     },
     {
       "id": 63,
       "first_name": "Mark",
       "last_name": "Nigolian",
       "team": "Blue",
-      "number": 0,
-      "captain": false
+      "captain": false,
+      "number": "0"
     },
     {
       "id": 64,
       "first_name": "Cody",
       "last_name": "Jarvis",
       "team": "Blue",
-      "number": 7,
-      "captain": false
+      "captain": false,
+      "number": "7"
     }
   ]
 }
