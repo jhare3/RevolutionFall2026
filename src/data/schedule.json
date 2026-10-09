@@ -24,7 +24,7 @@
   {
     "week": 3,
     "date": "Oct. 4",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "8:00 AM", "matchup": "Red vs White" },
       { "time": "9:00 AM", "matchup": "Gray vs Green" },
@@ -35,7 +35,7 @@
   {
     "week": 4,
     "date": "Oct. 11",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "8:00 AM", "matchup": "Blue vs Green" },
       { "time": "9:00 AM", "matchup": "Orange vs White" },
