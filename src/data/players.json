@@ -513,6 +513,30 @@
       "team": "Blue",
       "captain": false,
       "number": "7"
+    },
+    {
+      "id": 65,
+      "first_name": "Sub",
+      "last_name": "Avery",
+      "team": "Green",
+      "captain": false,
+      "number": "0"
+    },
+    {
+      "id": 66,
+      "first_name": "John",
+      "last_name": "Perez",
+      "team": "Red",
+      "captain": false,
+      "number": "4"
+    },
+    {
+      "id": 67,
+      "first_name": "Sub",
+      "last_name": "Peter",
+      "team": "Pink",
+      "captain": false,
+      "number": "0"
     }
   ]
 }
