@@ -537,6 +537,62 @@
       "team": "Pink",
       "captain": false,
       "number": "0"
+    },
+    {
+      "id": 68,
+      "first_name": "Brandon",
+      "last_name": "Pratico",
+      "team": "Pink",
+      "captain": false,
+      "number": "9"
+    },
+    {
+      "id": 69,
+      "first_name": "Caleb",
+      "last_name": "Jarvis Comi",
+      "team": "Pink",
+      "captain": false,
+      "number": "8"
+    },
+    {
+      "id": 72,
+      "first_name": "Eliezer",
+      "last_name": "Perez",
+      "team": "Blue",
+      "captain": false,
+      "number": "5"
+    },
+    {
+      "id": 74,
+      "first_name": "Corey",
+      "last_name": "Carlos",
+      "team": "White",
+      "captain": false,
+      "number": "6"
+    },
+    {
+      "id": 77,
+      "first_name": "Denis",
+      "last_name": "Schut",
+      "team": "Green",
+      "captain": false,
+      "number": "0"
+    },
+    {
+      "id": 81,
+      "first_name": "Tylor",
+      "last_name": "Gray",
+      "team": "Orange",
+      "captain": false,
+      "number": "2"
+    },
+    {
+      "id": 82,
+      "first_name": "Wyatt",
+      "last_name": "Jarvis Comi",
+      "team": "Orange",
+      "captain": false,
+      "number": "6"
     }
   ]
 }
