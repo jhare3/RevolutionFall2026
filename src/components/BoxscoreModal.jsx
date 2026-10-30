@@ -67,7 +67,14 @@ const BoxscoreModal = ({ show, onHide, gameData }) => {
                   </tr>
                   {players.map((p, i) => (
                     <tr key={`${teamName}-${i}`} style={{ fontSize: '13px' }}>
-                      <td className="fw-bold ps-3">{p["Player Name"]}</td>
+                      <td className="fw-bold ps-3">
+                        {p["No."] !== undefined && String(p["No."]).trim() !== '' && (
+                          <span className="text-muted fw-normal me-2" style={{ fontSize: '11px', display: 'inline-block', minWidth: '26px' }}>
+                            #{p["No."]}
+                          </span>
+                        )}
+                        {p["Player Name"]}
+                      </td>
                       <td className="text-center fw-black h6">{p.Points}</td>
                       <td className="text-center">{p.FGM}/{p.FGA}</td>
                       <td className="text-center">{p["3FGM"]}/{p["3FGA"]}</td>

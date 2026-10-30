@@ -100,15 +100,31 @@ const Stats = () => {
     setIsDragging(false);
   };
 
+  // Names shared by more than one roster entry (e.g. both N. Ko) - these are told apart by jersey number
+  const duplicateNames = useMemo(() => {
+    const counts = {};
+    (rosterData.players || []).forEach(p => {
+      const key = `${p.first_name} ${p.last_name}`.trim().toUpperCase();
+      counts[key] = (counts[key] || 0) + 1;
+    });
+    return new Set(Object.keys(counts).filter(k => counts[k] > 1));
+  }, []);
+
   const processedPlayers = useMemo(() => {
     return (rosterData.players || []).map(player => {
       const fullName = `${player.first_name} ${player.last_name}`.trim();
+      const isDuplicate = duplicateNames.has(fullName.toUpperCase());
       
       const playerGames = allGameRows.filter(row => {
         const rawName = row['Player Name'];
         if (!rawName) return false;
         const cleanRowName = rawName.replace(/^#\d+\s*/, '').trim();
-        return cleanRowName.toUpperCase() === fullName.toUpperCase();
+        if (cleanRowName.toUpperCase() !== fullName.toUpperCase()) return false;
+        // Same name on two roster entries: only count the rows with this player's number
+        if (isDuplicate && hasNumber(player.number) && row['No.'] !== undefined) {
+          return String(row['No.']) === String(player.number);
+        }
+        return true;
       });
       
       const calculatedStats = calculateSeasonStats(playerGames);
@@ -120,7 +136,7 @@ const Stats = () => {
         gp: calculatedStats["Games Played"]
       };
     });
-  }, [allGameRows]);
+  }, [allGameRows, duplicateNames]);
 
   const sortedPlayers = useMemo(() => {
     let items = [...processedPlayers];
@@ -277,9 +293,12 @@ const Stats = () => {
             </thead>
             <tbody>
               {sortedPlayers.map(p => (
-                <tr key={p.fullName} style={rowStyle}>
+                <tr key={p.id} style={rowStyle}>
                   <td style={stickyNameCell}>
-                    <div style={{ fontWeight: '700' }}>{p.fullName}</div>
+                    <div style={{ fontWeight: '700' }}>
+                      {hasNumber(p.number) && <span style={jerseyNumber}>#{p.number}</span>}
+                      {p.fullName}
+                    </div>
                     <div style={{ fontSize: '10px', color: '#ff4d4d', textTransform: 'uppercase' }}>{p.team}</div>
                   </td>
                   {dynamicColumns.map(h => (
@@ -339,6 +358,8 @@ const cellStack = { display: 'flex', flexDirection: 'column', alignItems: 'cente
 const primaryText = { fontWeight: '600', color: '#111' };
 const pctBadge = { fontSize: '10px', backgroundColor: '#111', color: '#fff', padding: '1px 5px', borderRadius: '3px', fontWeight: '700' };
 const rowStyle = { transition: 'background 0.2s' };
+const hasNumber = (n) => n !== null && n !== undefined && String(n).trim() !== '';
+const jerseyNumber = { color: '#888', fontWeight: '600', fontSize: '12px', marginRight: '6px' };
 const edgeFadeBase = { position: 'absolute', top: 0, bottom: 0, width: '32px', pointerEvents: 'none', transition: 'opacity 0.25s ease', zIndex: 8, borderRadius: '6px', opacity: 0 };
 const edgeFadeLeft = { ...edgeFadeBase, left: 0, background: 'linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0))' };
 const edgeFadeRight = { ...edgeFadeBase, right: 0, width: '22px', background: 'linear-gradient(to left, rgba(255,255,255,0.65), rgba(255,255,255,0))' };

@@ -1,0 +1,60 @@
+{
+  "week": 5,
+  "date": "Oct. 25",
+  "title": "REVOLUTION MEN'S LEAGUE | WEEK 5 RECAP",
+  "content": "Week 5 was electric. Pink stayed perfect. Red rolled behind a monster night from Drew Pelkey, White leaned on a 31-point outburst from Asko Mostarlic, and Black outlasted Orange in overtime thanks to a 40-point, seven-steal masterpiece from Matt Riordan. Let's get into the action.",
+  "matchups": [
+    "Green vs Red",
+    "Blue vs Pink",
+    "Gray vs White",
+    "Black vs Orange"
+  ],
+  "games": [
+    {
+      "matchup": "Game 1: Green vs. Red",
+      "text": "Red came out with its foot on the gas. They jumped ahead early and stacked buckets. Green scrapped for every possession, with Kenny Black cleaning the glass and Dennis Schut hunting for shots. Still, points came far easier for Red than Green. By the break, Red carried a hefty cushion. At halftime, Red led Green 45-30. Green needed a spark, and the second half tested its patience. They settled in and traded baskets with Red the rest of the way. Hans Lynn found the bottom of the net numerous times, and John O'Brien connected on three triples. Meanwhile, Peter Lindholm pulled down 11 rebounds. The deficit barely budged, though, as Red edged the half 34-33 and cruised to a 79-63 win.",
+      "performers": {
+        "Red": "Drew Pelkey — 31 pts, 19 reb; Cam Perta — 20 pts, 6 threes; Alex Philo — 13 pts, 14 reb, 7 ast, 2 blk",
+        "Green": "Dennis Schut — 19 pts, 8 reb, 4 ast; Kenny Black — 11 pts, 18 reb, 7 ast, 2 stl; Hans Lynn — 14 pts on 7-of-15 shooting"
+      }
+    },
+    {
+      "matchup": "Game 2: Blue vs. Pink",
+      "text": "Pink refused to let its unbeaten record wobble. They grabbed command early and never loosened their grip. Matt Spear attacked from every angle, while Liam Walsh went to work in the paint. Blue struggled to find any rhythm, so the result was a 13-point lead for Pink at the break, 32-19. Blue had 20 minutes to flip the script. They found their footing and scored 32 after the break. Will Ewald splashed five threes, and Will Oboh chased down 12 rebounds to go with three steals. John Helsel also chipped in a dozen points. Pink answered with 33 points of their own, so the cushion held firm. Pink secured a 65-51 victory.",
+      "performers": {
+        "Pink": "Matt Spear — 29 pts, 10 reb, 5 ast, 3 stl; Liam Walsh — 23 pts, 12 reb, 4 ast; Caleb Jarvis Comi — 8 pts, 4 reb",
+        "Blue": "Will Ewald — 19 pts, 12 reb, 5 threes; Will Oboh — 4 pts, 12 reb, 3 stl; John Helsel — 12 pts, 6 reb"
+      }
+    },
+    {
+      "matchup": "Game 3: Gray vs. White",
+      "text": "White arrived locked in and ready to score. White pounced early and shot their way to a comfortable edge. Asko Mostarlic kept defenders guessing, as Aid Semic finished anything near the rim. Andy Bousono steered the offense with poise. Gray found the net far less often, so they trailed by 13 at the half. At the break, White led Gray 36-23. Gray pushed back after the intermission. Gray came alive in bursts. Cory Chaplin buried five triples, and Jaren Jeffcoat ruled the paint with 12 boards, three blocks and three steals. Jimmy Warden added 17 points and sank five of six at the line. But White never blinked and took the half, 42-37, and the game, 78-60.",
+      "performers": {
+        "White": "Asko Mostarlic — 31 pts, 9 reb, 4 ast; Aid Semic — 18 pts, 11 reb; Andy Bousono — 12 pts, 6 reb, 6 ast",
+        "Gray": "Jaren Jeffcoat — 21 pts, 12 reb, 3 blk, 3 stl; Jimmy Warden — 17 pts, 2 stl; Cory Chaplin — 15 pts, 5 threes, 6 reb"
+      }
+    },
+    {
+      "matchup": "Game 4: Black vs. Orange",
+      "text": "Orange tore out of the gate and poured in 51 points before halftime. Kyle Haley and Edo Semic led the barrage, and the duo would finish with a dozen threes between them. Black had no answer early, so Orange built a 16-point lead and cruised into halftime. At the half, it was 51-35, Orange. Black needed a comeback, and it arrived with force. They stormed back and outscored Orange 48-32 after the break. Matt Riordan took over, living at the free-throw line and swiping the ball seven times. Brody Snow battled inside, and Nick Lynn gobbled up 16 rebounds. The 16-point hole vanished, and regulation ended tied at 83. When overtime struck, it belonged to Black, 7-3. Black survived, 90-86.",
+      "performers": {
+        "Black": "Matt Riordan — 40 pts, 11 reb, 4 ast, 7 stl; Brody Snow — 22 pts, 10 reb; Nick Lynn — 11 pts, 16 reb, 3 ast",
+        "Orange": "Kyle Haley — 32 pts, 10 reb, 7 ast, 4 stl; Edo Semic — 28 pts, 6 threes; Brandon Boyer — 8 pts, 11 reb"
+      }
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Alta Group & The Windjammer Restaurant and Upper Deck Pub",
+      "message": "A huge thank you to our sponsors: the Alta Group and The Windjammer Restaurant and Upper Deck Pub. Your support keeps the Revolution Men's League humming."
+    },
+    {
+      "name": "Warden's Wisdom",
+      "message": "This recap was brought to you by Warden's Wisdom, a mindfulness-based coaching business that helps individuals relieve anxiety through personalized mindfulness practices.",
+      "quote": "The best way to perform your best is to not try so hard to be your best. Let the game come to you, and soon you'll be flowing like water.",
+      "url": "",
+      "urlLabel": ""
+    }
+  ],
+  "closing": "Tune in on November 8th for more action on the court. In the meantime, check out the Burlington Revolution's home opener at 4pm on Sunday! We'll see you then."
+}
