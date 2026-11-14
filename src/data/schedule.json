@@ -46,7 +46,7 @@
   {
     "week": 5,
     "date": "Oct. 25",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "8:00 AM", "matchup": "Green vs Red" },
       { "time": "9:00 AM", "matchup": "Blue vs Pink" },
@@ -57,7 +57,7 @@
   {
     "week": 6,
     "date": "Nov. 8",
-    "location": "TBD",
+    "location": "Edmunds Middle SchoolTBD",
     "games": [
       { "time": "8:00 AM", "matchup": "Black vs Pink" },
       { "time": "9:00 AM", "matchup": "Green vs White" },
@@ -68,7 +68,7 @@
   {
     "week": 7,
     "date": "Nov. 15",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "8:00 AM", "matchup": "Blue vs Gray" },
       { "time": "9:00 AM", "matchup": "Orange vs Red" },
@@ -79,7 +79,7 @@
   {
     "week": "Playoffs",
     "date": "TBD",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "TBD", "matchup": "TBD vs TBD" },
       { "time": "TBD", "matchup": "TBD vs TBD" },
@@ -91,7 +91,7 @@
   {
     "week": "Championships",
     "date": "TBD",
-    "location": "TBD",
+    "location": "Edmunds Middle School",
     "games": [
       { "time": "TBD", "matchup": "TBD vs TBD" },
       { "time": "TBD", "matchup": "TBD vs TBD" }
