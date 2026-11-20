@@ -1,0 +1,60 @@
+{
+  "week": 6,
+  "date": "Nov. 8",
+  "title": "REVOLUTION MEN'S LEAGUE | WEEK 6 RECAP",
+  "content": "Week 6 was dazzling. Pink remained undefeated with a 90-36 demolition, fueled by Matt Spear's ridiculous quadruple-double of 28 points, 17 rebounds, 10 assists, and 10 steals. Kyle Haley poured in 39 for Orange, yet Blue slipped away with a 72-70 win. Drew Pelkey and Cam Perta lifted Red past Gray, while Asko Mostarlic's double-double steered White to a comfortable victory over Green. Let's get into the action.",
+  "matchups": [
+    "Black vs Pink",
+    "Green vs White",
+    "Blue vs Orange",
+    "Gray vs Red"
+  ],
+  "games": [
+    {
+      "matchup": "Game 1: Black vs. Pink",
+      "text": "Pink walked in unbeaten and had no plans to stumble. They set the tone early and never loosened their grip. Matt Spear conducted the offense, while Liam Walsh bullied his way around the rim, and Caleb Jarvis Comi found the range from deep. Pink's passing lanes closed like a bank vault, and the points stacked up fast. By the break, Pink was in command. Halftime: Pink 45, Black 22. Black needed a spark after the break, but the spark never arrived. Black scraped together 14 points in the second half. Brody Snow shouldered the scoring load with 28, though it took him 31 shots to get there. The rest of the roster went a combined 3-for-29 from the field. Sub T hauled in nine rebounds, and Drew Fisher grabbed seven, but the ball refused to go in for their squad. Pink added another 45 points as Spear completed a monster line of 28 points, 17 rebounds, 10 assists, and 10 steals. Pink cruised to a 90-36 victory and kept their record flawless at 6-0.",
+      "performers": {
+        "Black": "Brody Snow — 28 pts, 5 reb, 1 ast; Sub T — 9 reb, 1 ast, 1 stl, 1 blk; Drew Fisher — 4 pts, 7 reb, 1 ast",
+        "Pink": "Matt Spear — 28 pts, 17 reb, 10 ast, 10 stl; Liam Walsh — 30 pts, 16 reb, 3 ast, 1 stl; Caleb Jarvis Comi — 17 pts, 4 reb, 1 ast, 2 stl"
+      }
+    },
+    {
+      "matchup": "Game 2: Green vs. White",
+      "text": "White meant business. Asko Mostarlic anchored the paint all morning and wound up with 22 points and 13 rebounds. Andy Bousono steered the offense, dishing seven assists while swiping four steals. Aaron West chipped in with 12 points on an efficient 5-of-7 shooting, keeping White's attack humming along. Green needed a rally after the break. Fab Anthony led the charge with 21 points, cashing in on 8 of 12 free throws. James Hare buried three triples on the way to 13, as Kenny Black crashed the boards for seven rebounds. Dennis Schut also contributed nine points, but the shots rarely dropped for Green. They connected on 20 of 54 from the field (37 percent) while White hit 25 of 51 (49 percent). White pulled away for a 71-56 win, pushing their record to 5-1.",
+      "performers": {
+        "Green": "Fab Anthony — 21 pts, 7 reb; James Hare — 13 pts, 3 reb, 2 ast; Dennis Schut — 9 pts, 3 reb, 1 ast",
+        "White": "Asko Mostarlic — 22 pts, 13 reb, 1 ast, 1 blk; Andy Bousono — 21 pts, 3 reb, 7 ast, 4 stl; Aaron West — 12 pts, 1 reb"
+      }
+    },
+    {
+      "matchup": "Game 3: Blue vs. Orange",
+      "text": "Orange came out swinging. Kyle Haley set the pace, topping the week with 39 points that included 12 makes at the free-throw line. Kerry Lyons collected eight rebounds, and Carter Beeman pulled down seven, giving Orange extra chances on offense. Orange snagged a narrow lead and carried it to the break, but Blue stayed within a basket. Halftime: Orange 34, Blue 32. The second half belonged to Blue. Will Ewald dominated the glass with 15 rebounds. John Helsel scored 24 points and sank 7 of 8 free throws, while Kolby Bradford buried four of his seven three-point tries on the way to 19. The charge of the trio allowed Blue to turn the tables on the scoreboard, and Haley tried to close the gap, but the extra bucket never came. Blue escaped with a 72-70 win and climbed to 4-2.",
+      "performers": {
+        "Blue": "John Helsel — 24 pts, 7 reb, 1 stl; Kolby Bradford — 19 pts, 4 reb, 2 ast, 1 stl; Will Ewald — 12 pts, 15 reb, 1 ast, 1 stl",
+        "Orange": "Kyle Haley — 39 pts, 9 reb, 3 ast, 1 stl, 1 blk; Kerry Lyons — 8 pts, 8 reb, 1 ast; Carter Beeman — 8 pts, 7 reb, 1 ast, 1 blk"
+      }
+    },
+    {
+      "matchup": "Game 4: Gray vs. Red",
+      "text": "Gray was hungry for a first win, but Red seized control with a sharp shooting display. Cam Perta torched the nets from deep at a 7-of-12 clip, and Drew Pelkey led all scorers with 32 points. Logan Letourneau and Bela Dobkowski patrolled the glass with 10 and eight rebounds. Gray hung around, though, and trailed by only six at the break. Halftime: Red 45, Gray 39. Gray refused to fold after the break and answered Red punch for punch. Cory Chaplin paced Gray with 27 points on seven triples, while Jimmy Warden tallied 18, including four threes of his own. Jeromy Anderson posted 15 points with 10 rebounds, and Jaren Jeffcoat stuffed the stat sheet with 14 points, nine boards and three steals. Unfortunately, too many mistakes at costly times cost Gray the game. Red held on for a 91-83 win, lifting them to 4-2, while Gray still awaits their first victory at 0-6.",
+      "performers": {
+        "Gray": "Cory Chaplin — 27 pts, 4 reb, 2 stl; Jimmy Warden — 18 pts, 6 reb, 2 ast, 1 stl; Jeromy Anderson — 15 pts, 10 reb, 3 ast",
+        "Red": "Drew Pelkey — 32 pts, 5 reb, 2 ast; Cam Perta — 24 pts, 4 reb, 1 ast, 1 stl; Logan Letourneau — 17 pts, 10 reb, 4 ast, 1 stl"
+      }
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Alta Group & The Windjammer Restaurant and Upper Deck Pub",
+      "message": "A huge thank you to our sponsors: the Alta Group and TheWindjammer Restaurant and Upper Deck Pub. Your support keeps the Revolution Men's League buzzing."
+    },
+    {
+      "name": "Warden's Wisdom",
+      "message": "This recap was brought to you by Warden's Wisdom, a mindfulness-based coaching business that helps individuals relieve anxiety through personalized mindfulness practices.",
+      "quote": "Your body will only go as far as your mind lets it. Train your mind if you want to reach your potential.",
+      "url": "",
+      "urlLabel": ""
+    }
+  ],
+  "closing": "Tune in next week for more action on the court. See you then."
+}
